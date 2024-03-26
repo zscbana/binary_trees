@@ -17,3 +17,6 @@ oclean:
 clean :
 	$(RM)  $(TOCLEAN) $(NAME)
 re: oclean all
+
+check:
+	betty $(wildcard *.c)
