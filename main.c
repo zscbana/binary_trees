@@ -24,6 +24,7 @@ int main(void)
 	binary_tree_insert_right(root, 30);
 	binary_tree_insert_right(root, 60);
 
+	binary_tree_delete(root);
 	/* Print the tree to visualize */
 	printf("Binary Tree:\n");
 	binary_tree_print(root);
